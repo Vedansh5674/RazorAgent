@@ -1,0 +1,27 @@
+{
+  "name": "razoragent-ai-revenue-autopilot",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "RazorAgent — AI Revenue Autopilot for Razorpay AI Growth & Agentic Commerce Buildathon",
+  "scripts": {
+    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "seed": "cd backend && npm run seed",
+    "test": "cd backend && npm test",
+    "server": "cd backend && npm start",
+    "client": "cd frontend && npm run dev",
+    "dev": "node start-dev.js"
+  },
+  "keywords": [
+    "razorpay",
+    "ai-agent",
+    "whatsapp",
+    "cart-recovery",
+    "agentic-commerce",
+    "fintech"
+  ],
+  "author": "RazorAgent Team",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
